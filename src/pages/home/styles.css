@@ -1,0 +1,26 @@
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.slick-next {
+    /* right: 30px !important; */
+    z-index: 10;
+  }
+  .slick-next::before {
+    font-size: 35px !important;
+    color: gray !important;
+  }
+  .slick-prev {
+    /* left: 15px !important; */
+    z-index: 10;
+  }
+  .slick-prev::before {
+    font-size: 35px !important;
+    color: gray !important;
+  }
+  .slick-dots {
+    bottom: -30px !important;
+  }
+  .slick-dots li button:before {
+    font-size: 15px !important;
+  }
